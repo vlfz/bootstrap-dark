@@ -1,9 +1,10 @@
 {
   "name": "@forevolve/bootstrap-dark",
   "description": "A Bootstrap 4 Dark theme.",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "prettier": "@forevolve/prettier-config",
   "scripts": {
+    "build": "gulp default",
     "gulp-watch": "gulp watch",
     "browser-sync": "browser-sync start --server --files \"dist/css/*.css\"",
     "browser-sync-proxy": "browser-sync start --proxy \"http://localhost:5000/\" --files \"app/wwwroot/css/*.css\"",
