@@ -1,5 +1,5 @@
 {
-  "name": "@forevolve/bootstrap-dark",
+  "name": "bootstrap-dark",
   "description": "A Bootstrap 4 Dark theme.",
   "version": "1.0.0-alpha.0",
   "prettier": "@forevolve/prettier-config",
